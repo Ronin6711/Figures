@@ -14,7 +14,7 @@ VALUES
 
 CREATE TABLE Categories (
 	ID INT PRIMARY KEY,
-	"NameCategories" TEXT
+	"NameCategories" nvarchar(255)
 );
 
 INSERT INTO Categories
